@@ -1,3 +1,12 @@
+:root{
+--black:#171321;
+--white:#f7f8fa;
+--dkblue:#0d314b;
+--plumb:#4b0d49;
+--hotmag:#ff17e4;
+--magenta:#e310cb;
+--aqua:#86fbfb;
+}
 body {
   margin: 0;
   padding: 0;
@@ -32,11 +41,16 @@ nav ul li:not(:first-child) {
 }
 nav a {
     color: #333;
+    transition: 0.5s all ease;
+}
+nav a:hover {
+  color:purple;
 }
 nav .nav-icon {
-    width: 25px;
-    height: 25px;
     display: inline-block;
+}
+nav .nav-icon .fa-brands {
+  font-size: 25px;
 }
 .btn-custom {
     padding: 10px 20px;
