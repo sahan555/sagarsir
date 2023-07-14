@@ -1,32 +1,14 @@
-:root{
---black:#171321;
---white:#f7f8fa;
---dkblue:#0d314b;
---plumb:#4b0d49;
---hotmag:#ff17e4;
---magenta:#e310cb;
---aqua:#86fbfb;
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
-body {
-  margin: 0;
-  padding: 0;
-}
-a {
-    text-decoration: none;
-  }
-  a:hover,
-  a:focus {
-    outline: 0;
-    box-shadow: 0;
-  }
-  
 nav ul {
   list-style: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 0;
-  padding: 0 50px;
+  padding: 0;
 }
 nav ul .logo {
   height: 50px;

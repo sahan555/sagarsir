@@ -1,0 +1,44 @@
+:root {
+  --black: #171321;
+  --white: #f7f8fa;
+  --dkblue: #0d314b;
+  --plumb: #4b0d49;
+  --hotmag: #ff17e4;
+  --magenta: #e310cb;
+  --aqua: #86fbfb;
+
+  --primary-font: "Montserrat", sans-serif;
+  --font-size: 1rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+  font-size: var(--font-size);
+}
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  outline: 0;
+  box-shadow: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+list-style: none;
+}
