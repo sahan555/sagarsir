@@ -1,49 +1,90 @@
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 nav ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 nav ul .logo {
-  height: 50px;
-  width: 50px;
   display: inline-block;
 }
+nav .logo img {
+  height: 50px;
+  width: 50px;
+  filter: invert(1);
+}
 nav ul li:first-child {
-    margin-right: auto;
+  margin-right: auto;
+  flex-basis: auto;
 }
 nav ul li:not(:first-child) {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 nav a {
-    color: #333;
-    transition: 0.5s all ease;
+  color: #fff;
+  transition: 0.3s all ease;
 }
 nav a:hover {
-  color:purple;
+  color: var(--aqua);
 }
 nav .nav-icon {
-    display: inline-block;
+  display: inline-block;
+  color: var(--aqua);
+}
+nav .nav-icon:hover {
+  color: var(--hotmag);
 }
 nav .nav-icon .fa-brands {
-  font-size: 25px;
+  font-size: 15%;
 }
 .btn-custom {
-    padding: 10px 20px;
-    background-color: purple;
-    color: white;
-    border:1px solid purple;
-border-radius: 10px;
-transition: 0.5s all ease;
+  padding: 10px 20px;
+  background-color: var(--magenta);
+  color: var(--white);
+  border: 1px solid var(--magenta);
+  border-radius: 10px;
+  transition: 0.5s all ease;
 }
 .btn-custom:hover {
-    border: 1px solid purple;
-    background-color: #fff;
-    color: purple;
+  border: 1px solid var(--hotmag);
+  background-color: var(--hotmag);
+}
+
+/* intro section */
+#intro {
+  margin: 4rem 0;
+}
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0;
+}
+#intro .name {
+}
+#intro h1 {
+  font-size: 4rem;
+  color: var(--aqua);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+#intro h3 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+#intro a {
+  text-decoration: underline;
+}
+#intro a:hover {
+  text-decoration: none;
+}
+#intro > .container > *:last-child {
+  margin-bottom: 0;
 }
