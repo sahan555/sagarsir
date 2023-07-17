@@ -1,6 +1,9 @@
 .container {
-  max-width: 1200px;
+  max-width: 1180px;
   margin: 0 auto;
+}
+nav {
+  padding: 15px 0;
 }
 nav ul {
   list-style: none;
@@ -11,21 +14,23 @@ nav ul {
   margin: 0;
   padding: 0;
   color: #fff;
+  gap: 1.7rem;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 nav ul .logo {
   display: inline-block;
 }
 nav .logo img {
-  height: 50px;
-  width: 50px;
-  filter: invert(1);
+  height: 40px;
+  width: 40px;
 }
 nav ul li:first-child {
   margin-right: auto;
   flex-basis: auto;
 }
 nav ul li:not(:first-child) {
-  padding-left: 20px;
+  /* padding-left: 2px; */
 }
 nav a {
   color: #fff;
@@ -42,15 +47,17 @@ nav .nav-icon:hover {
   color: var(--hotmag);
 }
 nav .nav-icon .fa-brands {
-  font-size: 15%;
+  font-size: 150%;
 }
 .btn-custom {
-  padding: 10px 20px;
+  padding: 7px 6px;
   background-color: var(--magenta);
   color: var(--white);
   border: 1px solid var(--magenta);
-  border-radius: 10px;
+  border-radius: 4px;
   transition: 0.5s all ease;
+  letter-spacing: 0;
+
 }
 .btn-custom:hover {
   border: 1px solid var(--hotmag);
@@ -65,18 +72,21 @@ nav .nav-icon .fa-brands {
   font-size: 1rem;
   line-height: 1.5;
   margin-top: 0;
+  font-weight: 500;
+  
 }
 #intro .name {
+  letter-spacing: 1px;
 }
 #intro h1 {
   font-size: 4rem;
   color: var(--aqua);
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 #intro h3 {
   font-size: 4rem;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 #intro a {
