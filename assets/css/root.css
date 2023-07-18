@@ -40,11 +40,29 @@ a:focus {
   text-decoration: none;
   color: var(--hotmag);
 }
-h1,h2,h3,h4,h5,h6{
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 ul {
-    margin: 0;
-    padding: 0;
-list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-underline {
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+.text-underline:hover {
+  text-decoration: none;
 }
