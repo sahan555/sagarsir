@@ -31,9 +31,9 @@ nav ul li:first-child {
   margin-right: auto;
   flex-basis: auto;
 }
-nav ul li:not(:first-child) {
+/* nav ul li:not(:first-child) {
   /* padding-left: 2px; */
-}
+/* } */
 nav a {
   color: #fff;
   transition: 0.3s all ease;
